@@ -23,10 +23,15 @@
             echo "<tr><td><p>Producto: " . $registro['nombre'] . "</p></td>";
             echo "<td><p>Precio: " . $registro['precio'] . "</td>";
             echo "<td><p>Stock: " . $registro['stock'] . "</p></td></tr>";
-              // Espacio para separar los productos
+             // Espacio para separar los productos
         }
-        echo "<hr>";
+
         ?>
+         <td><input type='text' name='producto' size='10' class='centrado'></td> 
+         <td><input type='text' name='precio' size='10' class='centrado'></td> 
+         <td><input type='text' name='stock' size='10' class='centrado'></td>
+         <td><input type='submit' name='ins' id='ins' value='Insertar'></td> 
+ 
 
     </table>
 

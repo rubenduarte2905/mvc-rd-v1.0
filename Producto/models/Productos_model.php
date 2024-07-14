@@ -6,7 +6,7 @@
         private $productos;
 
     public function __construct(){
-        require_once ("Conectar.php");
+        require_once ("db/Conectar.php");
         $this->db = Conectar::conexion();
         $this->productos = array();
     }
